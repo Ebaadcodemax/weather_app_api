@@ -35,7 +35,7 @@ async function getapi() {
 
 
 async function defaultAPI() {
-    let url=`http://api.weatherapi.com/v1/current.json?key=a7593c20f8e04dcca81132254250509&q=Pune`
+    let url=`https://api.weatherapi.com/v1/current.json?key=a7593c20f8e04dcca81132254250509&q=Pune`
     
     let respone=await fetch(url);
     let rjson= await respone.json();
@@ -67,6 +67,7 @@ input.addEventListener("keypress", function(e){
 
 
 btn.addEventListener("click",getapi)
+
 
 
 
