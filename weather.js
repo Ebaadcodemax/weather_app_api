@@ -13,7 +13,7 @@ let temperature=document.querySelector(".temperature")
 let description=document.querySelector("#description")
 
 
-
+console.log("hello world")
 async function getapi() {
     let url=`http://api.weatherapi.com/v1/current.json?key=a7593c20f8e04dcca81132254250509&q=${input.value}`
     
@@ -67,6 +67,7 @@ input.addEventListener("keypress", function(e){
 
 
 btn.addEventListener("click",getapi)
+
 
 
 
