@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="weather.css">
+    
+</head>
+
+<body>
+
+ 
+    <div class="container">
+        
+        <form>
+            <label for="location">Location</label>
+            <input type="text" name="location" id="input" placeholder="location......">
+        </form>
+
+        <div class="weather">
+            <h1 id="loc">San Francisco</h1>
+
+            <div class="date">
+                <p id="description">mostly cloudy</p>
+            </div>
+
+            <div class="degree">
+                <img id="image">
+                <h1 class="temperature">62°</h1>
+            </div>
+
+            <div class="data">
+                <div class="humidity">
+                    <h5>humidity</h5>
+                    <h5 id="humidity">72%</h5>
+                </div>
+                <div class="wind">
+                    <h5>Wind</h5>
+                    <h5 id="wind">80 mph W</h5>
+                </div>
+                <div class="precipitation">
+                    <h5>Precipitation</h5>
+                    <h5 id="precipitation">10%</h5>
+                </div>
+            </div>
+
+            <button id="btn">Search</button>
+        </div>
+
+    </div>
+    <p>Made by Ebaadcodemax_api_practiceproject</p>
+</body>
+<script src="weather.js"></script>
+
+</html>
